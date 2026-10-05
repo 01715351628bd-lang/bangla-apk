@@ -1,0 +1,6 @@
+{
+  "name": "Unicode to Bijoy Converter",
+  "description": "Fast, private, client-side Bengali Unicode to Bijoy (SutonnyMJ) and Bijoy to Unicode text converter.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2563eb"/>
+      <stop offset="100%" stop-color="#1d4ed8"/>
+    </linearGradient>
+    <filter id="drop" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000" flood-opacity="0.28"/>
+    </filter>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+  <circle cx="256" cy="256" r="200" fill="none" stroke="rgba(255,255,255,0.12)" stroke-width="4"/>
+  <!-- Bengali letter 'ব' vector path -->
+  <g filter="url(#drop)" fill="#ffffff">
+    <!-- Matra (headline) -->
+    <rect x="120" y="140" width="272" height="28" rx="14"/>
+    <!-- Vertical post -->
+    <rect x="356" y="140" width="36" height="230" rx="14"/>
+    <!-- Left diagonal going down -->
+    <path d="M 368 152 L 140 270 A 18 18 0 0 0 140 302 L 372 360" fill="none" stroke="#ffffff" stroke-width="36" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <!-- Mini badge -->
+  <rect x="166" y="410" width="180" height="36" rx="18" fill="rgba(255,255,255,0.2)"/>
+  <text x="256" y="434" font-family="sans-serif" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle" letter-spacing="2">SUTONNYMJ</text>
+</svg>
